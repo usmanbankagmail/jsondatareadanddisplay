@@ -37,6 +37,12 @@ body{
     transition: transform 0.1s ease, box-shadow 0.1s ease;
     cursor: pointer;
   }
+  .card:hover{
+    background-color: coral;
+    font-size: 25px;
+    word-wrap:normal;
+  }
+
   .card:active {
     transform: scale(0.97) translateY(2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -89,6 +95,13 @@ body{
     transform: scale(0.97) translateY(2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
+
+  button:hover{
+    background-color: coral;
+    font-size: 25px;
+    word-wrap:normal;
+  }
+
   button{
     font-size: 17px;
     padding: 10px;
